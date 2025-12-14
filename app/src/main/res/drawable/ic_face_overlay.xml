@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Простой круг для позиционирования лица -->
+    <circle
+        cx="100"
+        cy="100"
+        r="90"
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/white"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Горизонтальная линия для глаз -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/white"
+        android:pathData="M50,80 L150,80"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Вертикальная линия для носа -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/white"
+        android:pathData="M100,80 L100,120"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Дуга для рта -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/white"
+        android:pathData="M70,130 Q100,150 130,130"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>

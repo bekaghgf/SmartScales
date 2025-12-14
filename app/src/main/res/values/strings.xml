@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Smart Scales</string>
+    <string name="status_initialization">Инициализация...</string>
+    <string name="status_ready">Система готова. Встаньте на весы.</string>
+    <string name="user_not_recognized">Пользователь не распознан</string>
+    <string name="weight_placeholder">0.0 кг</string>
+    <string name="yesterday_change">За вчера:</string>
+    <string name="week_change">За неделю:</string>
+    <string name="change_placeholder">--</string>
+    <string name="btn_register">Регистрация</string>
+    <string name="btn_statistics">Статистика</string>
+    <string name="btn_reset">Сброс</string>
+    <string name="btn_settings">Настройки</string>
+
+    <!-- Registration -->
+    <string name="registration">Регистрация нового пользователя</string>
+    <string name="username">Введите имя пользователя</string>
+    <string name="face_id">Сделать фото для Face ID</string>
+    <string name="save_user">Сохранить пользователя</string>
+    <string name="face_id_preview">Предпросмотр фотографии для Face ID</string>
+
+    <!-- Statistics -->
+    <string name="weight_stat">Статистика веса</string>
+    <string name="average_weight">Средний вес: -- кг</string>
+    <string name="changes">Общее изменение: -- кг</string>
+    <string name="last_changes">Последнее измерение: --</string>
+</resources>
